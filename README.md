@@ -18,9 +18,9 @@
     - Sharpen (Unsharp Mask)
     - Canny Edge Detection
     - Threshold (Binary)
-- 🎚️ สามารถปรับ **พารามิเตอร์** ของแต่ละ Operation ได้ผ่าน GUI
-- 🖼️ แสดงผล **Original vs Processed** ข้างกัน
-- 📊 แสดง **Histogram** ของค่าความเข้ม พร้อมข้อมูล Width / Height / Mean Intensity
+- สามารถปรับ **พารามิเตอร์** ของแต่ละ Operation ได้ผ่าน GUI
+- แสดงผล **Original vs Processed** ข้างกัน
+- แสดง **Histogram** ของค่าความเข้ม พร้อมข้อมูล Width / Height / Mean Intensity
 
 ---
 
@@ -31,7 +31,7 @@
    cd streamlit-image-processing
    ```
 
-2. สร้าง virtual environment (แนะนำ)
+2. สร้าง virtual environment 
    ```bash
    python -m venv venv
    source venv/bin/activate   # macOS / Linux
@@ -58,7 +58,7 @@ streamlit run streamlit_image_processing_app.py
 1. Push โค้ดขึ้น GitHub  
 2. เข้า [Streamlit Community Cloud](https://streamlit.io/cloud)  
 3. กด **New app** → เลือก repo → ระบุไฟล์หลัก `streamlit_image_processing_app.py`  
-4. กด Deploy ได้เลย 🎉  
+4. กด Deploy 
 
 ---
 
