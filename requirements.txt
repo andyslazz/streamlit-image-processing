@@ -1,0 +1,6 @@
+echo "streamlit
+opencv-python-headless
+pillow
+numpy
+matplotlib
+requests" > requirements.txt
